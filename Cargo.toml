@@ -9,3 +9,7 @@ edition = "2021"
 diesel = { version = "2.1.3", features = ["sqlite"] }
 midir = "0.9.1"
 dotenvy = "0.15.7"
+
+[dependencies.rusqlite]
+version = "0.29.0"
+features = ["bundled"]
